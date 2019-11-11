@@ -1,0 +1,166 @@
+    .ant-modal-content {
+
+        .ant-modal-close {
+            position: absolute;
+            top: -16px !important;
+            right: 16px !important;
+
+            .ant-modal-close-x {
+                width: 0 !important;
+                height: 0 !important;
+                font-size: 15px !important;
+                line-height: 0 !important;
+
+                .icon-container {
+                    height: 32px;
+                    width: 32px;
+                    border-radius: 50%;
+                    background-color: #170ff0;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    color: #fff;
+                }
+            }
+        }
+
+        .ant-modal-header {
+            padding: 36px 24px !important;
+
+            .ant-modal-title {
+                font-family: Roboto !important;
+                font-size: 1.625rem !important;
+                color: #202224 !important;
+                text-align: center;
+                line-height: 0 !important;
+            }
+        }
+
+        .ant-modal-footer {
+            padding: 0 25px 15px !important;
+            border: 0 !important;
+
+            .btn {
+                font-family: Roboto !important;
+                border-radius: 3px;
+                font-size: 0.875rem;
+                min-height: 45px;
+            }
+
+            .cancel-btn {
+                border-radius: 3px;
+                background-color: #ffffff;
+                color: #170ff0;
+                min-width: 90px;
+
+            }
+
+            .submit-btn {
+                border: solid 1px #170ff0;
+                background-color: #170ff0;
+                color: #fefefe;
+                min-width: 115px;
+
+            }
+
+            .ant-btn:hover,
+            .ant-btn:focus {
+                border-color: #d9d9d9 !important;
+            }
+        }
+
+        .ant-modal-body {
+            padding: 10px 25px 10px 25px !important;
+          
+        }
+
+
+        .ant-form-item label {
+            font-size: 0.8125rem !important;
+            color: #979797 !important;
+        }
+
+        .ant-form-item-required::before {
+            display: none !important;
+        }
+
+
+        // <InputNumber />
+
+        .ant-input-number {
+            width: 100% !important;
+            height: 46px !important;
+            padding: 4px 11px;
+            color: #393c40 !important;
+            font-size: 0.875rem !important;
+            line-height: 0 !important;
+            background-color: #fff !important;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+
+            .ant-input-number-input-wrap {
+                width: 100%;
+            }
+
+            &.x-required-field {
+                border-color: #c7163c !important;
+            }
+        }
+
+        // <Input />
+
+        .ant-input {
+            width: 100% !important;
+            height: 46px !important;
+            padding: 4px 11px;
+            color: #393c40 !important;
+            font-size: 0.875rem !important;
+            line-height: 0 !important;
+            background-color: #fff !important;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+
+            .ant-input-input-wrap {
+                width: 100%;
+            }
+
+            &.x-required-field {
+                border-color: #c7163c !important;
+            }
+        }
+
+
+        // <Select />
+
+        .ant-select-selection {
+            width: 100% !important;
+            height: 46px !important;
+            padding: 4px 11px;
+            color: #393c40 !important;
+            font-size: 0.875rem !important;
+            line-height: 0 !important;
+            background-color: #fff !important;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+
+            .ant-select-selection-input-wrap {
+                width: 100%;
+            }
+
+            &.x-required-field {
+                border-color: #c7163c !important;
+            }
+        }
+    }
+
+    .ant-modal {
+        top :unset!important;
+        display: flex !important;
+        flex-direction: column!important;
+        justify-content: center!important;
+        padding-bottom: unset!important;
+        height: 100vh;
+    }

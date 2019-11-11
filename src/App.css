@@ -20,3 +20,12 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.select-date{
+  display: flex ;
+}
+
+.ant-form-item {
+  margin: 0 10px !important
+}
